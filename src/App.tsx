@@ -26,10 +26,10 @@ const HomePage = () => (
         {/* Featured Images Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
           {[
-            { src: '/images/city/city1.jpg', title: '城市建筑' },
-            { src: '/images/wilderness/wild1.jpg', title: '旷野遐想' },
-            { src: '/images/architecture/arch1.jpg', title: '建筑光影' },
-            { src: '/images/life/life1.jpg', title: '生活碎片' },
+            { src: './images/city/city1.jpg', title: '城市建筑' },
+            { src: './images/wilderness/wild1.jpg', title: '旷野遐想' },
+            { src: './images/architecture/arch1.jpg', title: '建筑光影' },
+            { src: './images/life/life1.jpg', title: '生活碎片' },
           ].map((item, index) => (
             <div
               key={index}
@@ -53,7 +53,7 @@ const HomePage = () => (
         {/* View All Button */}
         <div className="text-center mt-12">
           <a
-            href="/portfolio"
+            href="./portfolio"
             className="inline-block px-8 py-3 border border-gray-900 text-gray-900 font-light tracking-wider hover:bg-gray-900 hover:text-white transition-colors"
           >
             查看全部作品
