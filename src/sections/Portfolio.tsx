@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Dialog, DialogContent } from '@/components/ui/dialog';
-import { X } from 'lucide-react';
+import { XIcon } from 'lucide-react';
 
 interface Project {
   id: string;
@@ -163,7 +163,7 @@ const Portfolio = () => {
             onClick={() => setSelectedImage(null)}
             className="absolute top-4 right-4 z-50 text-white/70 hover:text-white transition-colors"
           >
-            <X className="w-8 h-8" />
+            <XIcon className="w-8 h-8" />
           </button>
           {selectedImage && (
             <img
